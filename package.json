@@ -1,0 +1,24 @@
+{
+  "name": "lesson-hw-10",
+  "version": "1.0.0",
+  "description": "",
+  "source": "shopping-cart/src/index.html",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass shopping-cart/src/scss/main.scss shopping-cart/src/scss/main.css",
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "lesson-hw-10"
+  },
+  "author": "Mihail",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2",
+    "sass": "^1.49.9"
+  }
+}
