@@ -15,6 +15,13 @@
     margin: 25px 0;
   }
 
+  &__name{
+   margin-bottom: 20px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+  }
+
   &__close-button {
     cursor: pointer;
     margin-left: 20px;
@@ -37,5 +44,58 @@
   &__main-info {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__secondary-info{
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  &__color {
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+    
+  }
+
+  &__color-item1{
+    margin-right: 4px;
+  }
+
+  &__color-item2{
+    color: $secondary-font-color;
+    margin-right: 10px;
+  }
+
+  &__color-item3{
+    width: 14px;
+    height: 14px;
+    background: #353E4D;
+  }
+
+  &__amount {
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+  }
+
+  &__amount-item1{
+    margin-right: 4px;
+  }
+
+  &__size{
+    display: flex;
+    list-style: none;
+  }
+
+  &__size-item1{
+    margin-right: 10px;
+  }
+
+  &__size-item2{
+    color: $secondary-font-color;
   }
 }

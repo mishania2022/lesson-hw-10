@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "source": "shopping-cart/src/index.html",
-  "main": "index.js",
-  "scripts": {
+    "scripts": {
     "style": "sass shopping-cart/src/scss/main.scss shopping-cart/src/scss/main.css",
     "start": "parcel",
     "build": "parcel build",

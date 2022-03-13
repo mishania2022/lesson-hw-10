@@ -16,8 +16,10 @@ p,
 figure,
 blockquote,
 dl,
-dd {
+dd,
+ul {
   margin: 0;
+  padding: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -112,6 +114,42 @@ body {
 .product-card__main-info {
   display: flex;
   justify-content: space-between;
+}
+.product-card__secondary-info {
+  display: flex;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.product-card__color {
+  display: flex;
+  list-style: none;
+  margin-right: 15px;
+}
+.product-card__color-item1 {
+  margin-right: 4px;
+}
+.product-card__color-item2 {
+  color: #9e9e9e;
+}
+.product-card__amount {
+  display: flex;
+  list-style: none;
+  margin-right: 15px;
+}
+.product-card__amount-item1 {
+  margin-right: 4px;
+}
+.product-card__size {
+  display: flex;
+  list-style: none;
+}
+.product-card__size-item1 {
+  margin-right: 10px;
+}
+.product-card__size-item2 {
+  color: #9e9e9e;
 }
 
 /*# sourceMappingURL=main.css.map */
