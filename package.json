@@ -4,7 +4,7 @@
   "description": "",
   "source": "shopping-cart/src/index.html",
     "scripts": {
-    "style": "sass shopping-cart/src/scss/main.scss shopping-cart/src/scss/main.css",
+    "style": "sass --watch shopping-cart/src/scss/main.scss shopping-cart/src/scss/main.css",
     "start": "parcel",
     "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
