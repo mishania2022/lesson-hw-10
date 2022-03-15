@@ -28,7 +28,6 @@
  }
 
   &__name{
-   width: 100%;
    margin-bottom: 20px;
    font-weight: 500;
    font-size: 16px;
@@ -74,6 +73,7 @@
       line-height: 14px;
       margin-bottom: 19px;
     }
+
     &::before{
       display: none;
       content: "1";
@@ -190,10 +190,12 @@
   }
 
   &__size-item1{
+    flex-grow: 1;
     margin-right: 10px;
   }
 
   &__size-item2{
+    flex-grow: 1;
     color: $secondary-font-color;
   }
 }
