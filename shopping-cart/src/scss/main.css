@@ -219,6 +219,7 @@ body {
 }
 .product-card__secondary-info {
   display: flex;
+  max-width: 499px;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 12px;
@@ -277,14 +278,23 @@ body {
 }
 .product-card__size {
   display: flex;
+  flex-basis: 250px;
   list-style: none;
 }
+@media screen and (max-width: 675px) {
+  .product-card__size {
+    display: block;
+  }
+}
+@media screen and (max-width: 320px) {
+  .product-card__size {
+    display: flex;
+  }
+}
 .product-card__size-item1 {
-  flex-grow: 1;
   margin-right: 10px;
 }
 .product-card__size-item2 {
-  flex-grow: 1;
   color: #9e9e9e;
 }
 
