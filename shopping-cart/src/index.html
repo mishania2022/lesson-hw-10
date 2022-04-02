@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./scss/main.scss" />
   </head>
   <body>
-    <div class="container">
-      <div class="product-card container">
+    <div class="product-card">
+      <div class="product-card__container container">
         <img class="product-card__image" src="./images/sofa.png" alt="Sofa" />
-  
+
         <div class="product-card__info">
           <div class="product-card__main-info">
             <h2 class="product-card__name">Кускен Navy Blue</h2>
@@ -33,11 +33,20 @@
               <li class="product-card__size-item2">218 см х 95 см х 90 см</li>
             </ul>
           </div>
-        </div>
-  
+        </div>  
         <button class="product-card__close-button">X</button>
+        <div class="product-card__secondary-info_mobile">
+          <ul class="product-card__color">
+            <li class="product-card__color-item1">Цвет:</li>
+            <li class="product-card__color-item2">Темно-синий</li>
+            <li class="product-card__color-item3 product-card__color-item3_colored"></li>
+          </ul>
+          <ul class="product-card__size">
+            <li class="product-card__size-item1">Размер(Ш×Д×В):</li>
+            <li class="product-card__size-item2">218 см х 95 см х 90 см</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    
+    </div>    
   </body>
 </html>
